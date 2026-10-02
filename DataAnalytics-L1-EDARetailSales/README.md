@@ -128,8 +128,8 @@ Based on the analysis in the notebook:
 ```text
 DataAnalytics-L1-EDARetailSales/
 │
-├── Customer segmentation.csv
-├── Task_1_EDA_Retail_Sales.ipynb
+├── Customer_Segmentation_py.csv
+├── Source Code.ipynb
 └── README.md
 ```
 
@@ -138,11 +138,9 @@ DataAnalytics-L1-EDARetailSales/
 ## ▶️ How to Run
 
 1. Download or clone this repository.
-2. Open `Task_1_EDA_Retail_Sales.ipynb` in Jupyter Notebook or JupyterLab.
+2. Open `Source Code.ipynb` in Jupyter Notebook or JupyterLab.
 3. Make sure the dataset CSV is available in the same directory as the notebook.
 4. Run the notebook cells sequentially to reproduce the analysis and visualizations.
-
-> **Note:** The notebook currently loads the dataset using the filename `Customer_Segmentation_py.csv`. If the CSV is stored with a different filename, update the `pd.read_csv()` filename in the notebook accordingly.
 
 ---
 
