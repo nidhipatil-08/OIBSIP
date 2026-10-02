@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project performs **Exploratory Data Analysis (EDA)** on retail sales data to understand:
 
@@ -30,7 +30,7 @@ The main objective of this project is to explore the retail sales dataset and id
 
 ---
 
-## 🗂️ Dataset
+## Dataset
 
 The dataset contains retail transaction information including:
 
@@ -55,7 +55,7 @@ The dataset contains retail transaction information including:
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 * **Python**
 * **Jupyter Notebook**
@@ -65,7 +65,7 @@ The dataset contains retail transaction information including:
 
 ---
 
-## 🔍 Exploratory Data Analysis
+## Exploratory Data Analysis
 
 The notebook explores different aspects of the retail dataset, including:
 
@@ -94,7 +94,7 @@ A correlation matrix is created for numerical variables to examine relationships
 
 ---
 
-## 📈 Key Findings
+## Key Findings
 
 According to the analysis:
 
@@ -109,7 +109,7 @@ According to the analysis:
 
 ---
 
-## 💡 Business Recommendations
+## Business Recommendations
 
 Based on the analysis in the notebook:
 
@@ -123,7 +123,7 @@ Based on the analysis in the notebook:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 DataAnalytics-L1-EDARetailSales/
@@ -135,7 +135,7 @@ DataAnalytics-L1-EDARetailSales/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Download or clone this repository.
 2. Open `Source Code.ipynb` in Jupyter Notebook or JupyterLab.
@@ -144,7 +144,7 @@ DataAnalytics-L1-EDARetailSales/
 
 ---
 
-## 🎓 Internship Information
+## Internship Information
 
 **Organization:** Oasis Infobyte
 **Track:** Data Analytics
@@ -152,6 +152,6 @@ DataAnalytics-L1-EDARetailSales/
 
 ---
 
-## 👩‍💻 Author
+## Author
 
-**Nidhi Gurunath Patil**
+Nidhi Gurunath Patil
