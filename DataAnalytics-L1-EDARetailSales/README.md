@@ -1,6 +1,6 @@
 # EDA on Retail Sales Data
 
-## 📊 Oasis Infobyte Internship — Data Analytics
+## Oasis Infobyte Internship — Data Analytics
 
 **Task:** Task 1 · EDA on Retail Sales Data
 **Track:** Data Analytics
@@ -24,7 +24,7 @@ The analysis is performed using Python in a Jupyter Notebook.
 
 ---
 
-## 🎯 Objective
+## Objective
 
 The main objective of this project is to explore the retail sales dataset and identify meaningful patterns and insights related to customers, products, sales, revenue, and profitability.
 
