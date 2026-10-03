@@ -1,16 +1,16 @@
 # Sentiment Analysis — Data Analytics Level 1, Task 4
 
 ![OIBSIP](https://img.shields.io/badge/OIBSIP-Level%201-blue)
-![Python](https://img.shields.io/badge/Python-3.10-yellow)
+![Python](https://img.shields.io/badge/Python-3.13-yellow)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
 ![NLTK](https://img.shields.io/badge/NLTK-NLP-green)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-## 📌 Project Overview
+## Project Overview
 
 This project is part of the **Oasis Infobyte Internship Program (OIBSIP)** — **Data Analytics, Level 1, Task 4**. The objective is to build a machine learning model that classifies the sentiment of text data (positive, negative, or neutral) and to derive insights into public opinion or customer feedback.
 
-## 🎯 Objective
+## Objective
 
 - Load and inspect a text-based sentiment dataset
 - Build a complete text preprocessing pipeline (lowercase, punctuation removal, tokenisation, stopword removal, lemmatisation)
@@ -21,7 +21,7 @@ This project is part of the **Oasis Infobyte Internship Program (OIBSIP)** — *
 - Analyse 5 misclassified examples and discuss why they failed
 - Provide a conclusion identifying the best model and a real-world application
 
-## 📂 Repository Structure
+## Repository Structure
 DataAnalytics-L1-SentimentAnalysis/
 │
 ├── IMDB Dataset.csv # Raw dataset (50,000 movie reviews)
@@ -29,7 +29,7 @@ DataAnalytics-L1-SentimentAnalysis/
 └── README.md # Project documentation 
 
 
-## 📊 Dataset
+## Dataset
 
 - **Source:** [Kaggle — IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 - **Records:** 50,000 movie reviews
@@ -55,7 +55,7 @@ DataAnalytics-L1-SentimentAnalysis/
 - **TextBlob** — rule-based polarity baseline and neutral class derivation
 - **Google Colab** — development environment
 
-## 🔍 Analysis Workflow
+## Analysis Workflow
 
 ### 1. Data Loading & Inspection
 - Loaded the IMDB dataset into a pandas DataFrame
@@ -94,7 +94,7 @@ For each model: accuracy, precision, recall, F1-score, and confusion matrix.
 ### 8. Error Analysis
 Displayed 5 misclassified examples from the Naive Bayes model with discussion of failure modes.
 
-## 💡 Key Results
+## Key Results
 
 | Metric | Naive Bayes | Linear SVM |
 |---|---|---|
@@ -117,7 +117,7 @@ Displayed 5 misclassified examples from the Naive Bayes model with discussion of
 4. **Very short text** — insufficient signal to classify confidently
 5. **Domain-specific language** — "so bad it's good", "cult classic" phrases
 
-## 📌 Business / Real-World Applications
+## Business / Real-World Applications
 
 - Analysing customer product reviews to detect dissatisfaction early
 - Monitoring brand sentiment across social media platforms
@@ -125,20 +125,20 @@ Displayed 5 misclassified examples from the Naive Bayes model with discussion of
 - Gauging public opinion on product launches or policy announcements
 - Filtering user feedback in app stores by sentiment
 
-## ⚠️ Limitations
+## Limitations
 
 - Bag-of-words models cannot detect sarcasm, irony, or negation scope
 - Word order and context are lost during vectorisation
 - The IMDB dataset is binary; the neutral class was rule-derived, not natively labelled
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Replace TF-IDF with word embeddings (Word2Vec, GloVe)
 - Fine-tune a transformer model such as BERT for context-aware sentiment
 - Add a neutral class using a semi-supervised approach
 - Increase training data or apply data augmentation
 
-## ▶️ How to Run
+## How to Run
 
 1. Clone this repository:
    ```bash
@@ -175,7 +175,5 @@ GitHub: @nidhipatil-08
 
 Acknowledgements
 Oasis Infobyte for the internship opportunity and project guidelines
-
 Kaggle for hosting the IMDB 50K Movie Reviews dataset
-
 NLTK, scikit-learn, and TextBlob maintainers for the open-source tooling
