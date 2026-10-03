@@ -22,11 +22,12 @@ This project is part of the **Oasis Infobyte Internship Program (OIBSIP)** — *
 - Provide a conclusion identifying the best model and a real-world application
 
 ## Repository Structure
-DataAnalytics-L1-SentimentAnalysis/
-│
-├── IMDB Dataset.csv # Raw dataset (50,000 movie reviews)
-├── Source Code.ipynb # Jupyter/Colab notebook with the full pipeline
-└── README.md # Project documentation 
+
+OIBSIP/
+└── DataAnalytics-L1-SentimentAnalysis/
+    ├── IMDB Dataset.csv # Raw dataset (50,000 movie reviews)
+    ├── Source Code.ipynb # Jupyter/Colab notebook with the full pipeline
+    └── README.md # Project documentation 
 
 
 ## Dataset
@@ -142,7 +143,7 @@ Displayed 5 misclassified examples from the Naive Bayes model with discussion of
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/OIBSIP.git
+   git clone https://github.com/nidhipatil-08/OIBSIP.git
    cd OIBSIP/DataAnalytics-L1-SentimentAnalysis
 
 2. Install dependencies (in Google Colab, most are pre-installed):
