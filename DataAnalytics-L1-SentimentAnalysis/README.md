@@ -44,7 +44,7 @@ DataAnalytics-L1-SentimentAnalysis/
 
 > **Note on the neutral class:** The IMDB dataset is binary. To satisfy the task's requirement of inspecting positive/negative/neutral counts, a third "neutral" class was derived using **TextBlob's polarity score** on a 5,000-review sample.
 
-## 🛠️ Tools & Libraries
+## Tools & Libraries
 
 - **Python 3.10**
 - **pandas**, **numpy** — data handling
@@ -155,7 +155,7 @@ Displayed 5 misclassified examples from the Naive Bayes model with discussion of
 
 4. Run all cells in order.
 
-📸 Visualizations Included
+Visualizations Included
 Sentiment Distribution Bar Chart
 
 Confusion Matrices (Naive Bayes + Linear SVM)
