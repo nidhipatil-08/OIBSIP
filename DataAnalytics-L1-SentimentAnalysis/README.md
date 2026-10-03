@@ -169,12 +169,17 @@ WordCloud — Negative Reviews
 
 Model Comparison Chart
 
-Author
+Author:
 Nidhi Patil
+
 Data Analytics Intern — Oasis Infobyte (OIBSIP)
+
 GitHub: @nidhipatil-08
 
-Acknowledgements
+Acknowledgements:
+
 Oasis Infobyte for the internship opportunity and project guidelines
+
 Kaggle for hosting the IMDB 50K Movie Reviews dataset
+
 NLTK, scikit-learn, and TextBlob maintainers for the open-source tooling
